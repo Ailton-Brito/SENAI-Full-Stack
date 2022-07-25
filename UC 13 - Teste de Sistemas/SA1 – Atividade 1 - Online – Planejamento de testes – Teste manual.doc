@@ -1,0 +1,397 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testreport Geral</title>
+<link type="text/css" rel="stylesheet" href="http://localhost/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width=231 height=56 src="http://localhost/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Relatório da Execução do Plano de Teste</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Projeto de Teste: Pedidos de Compra<br/>Plano de Teste: Geral</p></div>
+<div class="summary"><p id="printedby">Impresso por TestLink em 29/03/2022</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">SUMÁRIO</h1><div class="toc"><p>&nbsp;</p><p><b><a href="#toc_1">1. Plataforma:Chrome</a></b></p><p style="padding-left: 10px;"><b><a href="#toc_1_1">1.1.Pedido de Compra (gerado automaticamente da especificação de requisitos.)</a></b></p>
+<p style="padding-left: 30px;"><a href="#toc_tc23">Livraria-1: Inclusão válida </a></p><p style="padding-left: 30px;"><a href="#toc_tc25">Livraria-2: Inclusão invalida </a></p><p style="padding-left: 10px;"><b><a href="#toc_1_2">1.2.Total do Pedido (gerado automaticamente da especificação de requisitos.)</a></b></p>
+<p style="padding-left: 30px;"><a href="#toc_tc28">Livraria-3: Apresentação válida </a></p><p style="padding-left: 30px;"><a href="#toc_tc30">Livraria-4: Apresentação invalida </a></p><p style="padding-left: 10px;"><b><a href="#toc_1_3">1.3.Gravação do Pedido (gerado automaticamente da especificação de requisitos.)</a></b></p>
+<p style="padding-left: 30px;"><a href="#toc_tc33">Livraria-5: Gravação válida </a></p><p style="padding-left: 30px;"><a href="#toc_tc35">Livraria-6: Gravação invalida</a></p><p style="padding-left: 10px;"><b><a href="#toc_1_4">1.4.Fechamento do Pedido (gerado automaticamente da especificação de requisitos.)</a></b></p>
+<p style="padding-left: 30px;"><a href="#toc_tc38">Livraria-7: Fechamento válido </a></p><p style="padding-left: 30px;"><a href="#toc_tc40">Livraria-8: Fechamento invalido </a></p><p>&nbsp;</p><p><b><a href="#toc_2">2. Plataforma:Edge</a></b></p><p style="padding-left: 10px;"><b><a href="#toc_2_1">2.1.Pedido de Compra (gerado automaticamente da especificação de requisitos.)</a></b></p>
+<p style="padding-left: 30px;"><a href="#toc_tc23">Livraria-1: Inclusão válida </a></p><p style="padding-left: 30px;"><a href="#toc_tc25">Livraria-2: Inclusão invalida </a></p><p style="padding-left: 10px;"><b><a href="#toc_2_2">2.2.Total do Pedido (gerado automaticamente da especificação de requisitos.)</a></b></p>
+<p style="padding-left: 30px;"><a href="#toc_tc28">Livraria-3: Apresentação válida </a></p><p style="padding-left: 30px;"><a href="#toc_tc30">Livraria-4: Apresentação invalida </a></p><p style="padding-left: 10px;"><b><a href="#toc_2_3">2.3.Gravação do Pedido (gerado automaticamente da especificação de requisitos.)</a></b></p>
+<p style="padding-left: 30px;"><a href="#toc_tc33">Livraria-5: Gravação válida </a></p><p style="padding-left: 30px;"><a href="#toc_tc35">Livraria-6: Gravação invalida</a></p><p style="padding-left: 10px;"><b><a href="#toc_2_4">2.4.Fechamento do Pedido (gerado automaticamente da especificação de requisitos.)</a></b></p>
+<p style="padding-left: 30px;"><a href="#toc_tc38">Livraria-7: Fechamento válido </a></p><p style="padding-left: 30px;"><a href="#toc_tc40">Livraria-8: Fechamento invalido </a></p></div><h1 class="doclevel" >Projeto de Teste: Pedidos de Compra</h1>
+<div class="txtlevel"><p>Planejamento de testes da aplica&ccedil;&atilde;o.</p></div>
+ <br/><h1 class="doclevel" style="page-break-before: avoid;"  >Plano de Teste: Geral</h1>
+<div class="txtlevel"><p>Gerenciamento Geral do Plano de Teste.</p></div>
+ <br/><h1 class="doclevel" id="toc_1">1. Plataforma: Chrome</h1><div class="txtlevel"><p>Navegador Chrome</p></div>
+ <br/><a name='toc_1_1'></a>
+<h1 class='doclevel'>1.1.Suíte de Teste : Pedido de Compra (gerado automaticamente da especificação de requisitos.)</h1>
+<div>Test Cases in the Test Suite are generated from Requirements. A refinement of test scenario is highly recommended.</div><a name="toc_tc23"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-1: Inclusão válida &nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(13,14)">&quot;Inclus&atilde;o&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Cadastrar &gt; digitar dados v&aacute;lidos</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>Digitar os dados:</p>
+
+<p>ISBN_1: 1234567890 Qtde_1: 2 Pre&ccedil;o_1: 35.00</p>
+
+<p>ISBN_2: 2345678901 Qtde_2: 3 Pre&ccedil;o_2: 40.00</p>
+
+<p>ISBN_3: 3456789012 Qtde_3: 1 Pre&ccedil;o_3: 55.00</p>
+</td><td><p>Sem avisos de consist&ecirc;ncias.</p>
+</td><td>Passou</td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">1.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Baseline</td><td colspan="4">Versão 1.0</td></tr>
+<tr><td width="20%" valign="top">Testador</td><td  colspan="4" >ailton</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução:</span></td><td  colspan="4" ><b>Passou</b></td></tr>
+<tr><td width="20%"><span class="label">Modo de Execução:</span></td><td  colspan="4" ><b>Manual</b></td></tr>
+<tr><td width="20%"><span class="label">Duração da Execução (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<a name="toc_tc25"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-2: Inclusão invalida &nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(13,14)">&quot;Inclus&atilde;o&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Cadastrar &gt; digitar dados v&aacute;lidos</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>Sem digitar os dados:</p>
+
+<p>ISBN:&lt;null&gt;&nbsp; Qtde:&lt;null&gt;&nbsp; Pre&ccedil;o:&lt;null&gt;</p>
+</td><td><p>Sem avisos de consist&ecirc;ncia.</p>
+</td><td>Passou</td></tr><tr><td width="5">2</td><td><p>Pressionar bot&atilde;o Total do Pedido</p>
+</td><td><p>Mensagem:</p>
+
+<p>Campo obrigat&oacute;rio</p>
+</td><td>Com Falha</td></tr><tr><td width="5">3</td><td><p>Digitar os dados:</p>
+
+<p>ISBN:&nbsp;1234567890&nbsp; Qtde:&lt;null&gt;&nbsp; Pre&ccedil;o:&lt;null&gt;</p>
+</td><td><p>Sem avisos de consist&ecirc;ncia.</p>
+</td><td>Passou</td></tr><tr><td width="5">4</td><td><p>Pressionar bot&atilde;o Total do Pedido</p>
+</td><td><p>Mensagem:</p>
+
+<p>Campo obrigat&oacute;rio</p>
+</td><td>Com Falha</td></tr><tr><td width="5">5</td><td><p>Digitar os dados:</p>
+
+<p>ISBN: 1234567890&nbsp; &nbsp;Qtde: 2&nbsp; &nbsp;Pre&ccedil;o:&lt;null&gt;</p>
+</td><td><p>Sem avisos de consist&ecirc;ncia</p>
+</td><td>Passou</td></tr><tr><td width="5">6</td><td><p>Pressionar bot&atilde;o Total do Pedido</p>
+</td><td><p>Mensagem:</p>
+
+<p>Campo obrigat&oacute;rio</p>
+</td><td>Com Falha</td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">3.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Baseline</td><td colspan="4">Versão 1.0</td></tr>
+<tr><td width="20%" valign="top">Testador</td><td  colspan="4" >ailton</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução:</span></td><td  colspan="4" ><b>Com Falha</b></td></tr>
+<tr><td width="20%"><span class="label">Modo de Execução:</span></td><td  colspan="4" ><b>Manual</b></td></tr>
+<tr><td width="20%"><span class="label">Duração da Execução (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<a name='toc_1_2'></a>
+<h1 class='doclevel'>1.2.Suíte de Teste : Total do Pedido (gerado automaticamente da especificação de requisitos.)</h1>
+<div>Test Cases in the Test Suite are generated from Requirements. A refinement of test scenario is highly recommended.</div><a name="toc_tc28"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-3: Apresentação válida &nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(15,16)">&quot;Apresenta&ccedil;&atilde;o&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Cadastrar &gt; digitar dados v&aacute;lidos &gt; Total do Pedido</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>Pressionar o bot&atilde;o Total do Pedido.</p>
+</td><td><p>Nova p&aacute;gina:</p>
+
+<p>1234567890&nbsp; &nbsp; 2&nbsp; &nbsp; 35,00&nbsp; &nbsp; 70,00</p>
+
+<p>2345678901&nbsp; &nbsp; 3&nbsp; &nbsp; 40,00&nbsp; 120,00</p>
+
+<p>3456789012&nbsp; &nbsp; 1&nbsp; &nbsp; 55,00&nbsp; &nbsp; 55,00</p>
+
+<p>Total Pedido&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;245,00</p>
+</td><td>Passou</td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">1.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Baseline</td><td colspan="4">Versão 1.0</td></tr>
+<tr><td width="20%" valign="top">Testador</td><td  colspan="4" >ailton</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução:</span></td><td  colspan="4" ><b>Passou</b></td></tr>
+<tr><td width="20%"><span class="label">Modo de Execução:</span></td><td  colspan="4" ><b>Manual</b></td></tr>
+<tr><td width="20%"><span class="label">Duração da Execução (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<a name="toc_tc30"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-4: Apresentação invalida &nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(15,16)">&quot;Apresenta&ccedil;&atilde;o&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Cadastrar &gt; digitar dados v&aacute;lidos &gt; Total do Pedido</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>Sem digitar dados:</p>
+
+<p>Pressionar o bot&atilde;o Total do Pedido.</p>
+</td><td><p>Mensagem:</p>
+
+<p>Campo obrigat&oacute;rio</p>
+</td><td>Com Falha</td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">3.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Baseline</td><td colspan="4">Versão 1.0</td></tr>
+<tr><td width="20%" valign="top">Testador</td><td  colspan="4" >ailton</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução:</span></td><td  colspan="4" ><b>Com Falha</b></td></tr>
+<tr><td width="20%"><span class="label">Modo de Execução:</span></td><td  colspan="4" ><b>Manual</b></td></tr>
+<tr><td width="20%"><span class="label">Duração da Execução (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<a name='toc_1_3'></a>
+<h1 class='doclevel'>1.3.Suíte de Teste : Gravação do Pedido (gerado automaticamente da especificação de requisitos.)</h1>
+<div>Test Cases in the Test Suite are generated from Requirements. A refinement of test scenario is highly recommended.</div><a name="toc_tc33"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-5: Gravação válida &nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(17,18)">&quot;Grava&ccedil;&atilde;o&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Cadastrar &gt; digitar dados v&aacute;lidos &gt; Total Pedido &gt; Confirmar Pedido</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>Pressionar o bot&atilde;o Confirmar Pedido.</p>
+</td><td><p>Mensagem:</p>
+
+<p>Pedido 50025 gravado com sucesso</p>
+</td><td>Passou</td></tr><tr><td width="5">2</td><td><p>Pressionar bot&atilde;o Voltar para Menu Principal</p>
+</td><td><p>Tela do Menu Principal</p>
+</td><td>Passou</td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">1.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Baseline</td><td colspan="4">Versão 1.0</td></tr>
+<tr><td width="20%" valign="top">Testador</td><td  colspan="4" >ailton</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução:</span></td><td  colspan="4" ><b>Passou</b></td></tr>
+<tr><td width="20%"><span class="label">Modo de Execução:</span></td><td  colspan="4" ><b>Manual</b></td></tr>
+<tr><td width="20%"><span class="label">Duração da Execução (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<a name="toc_tc35"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-6: Gravação invalida&nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(17,18)">&quot;Grava&ccedil;&atilde;o&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Cadastrar &gt; digitar dados inv&aacute;lidos &gt; Total Pedido &gt; Confirmar Pedido</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>Sem a&ccedil;&atilde;o.</p>
+</td><td><p>Sem acesso &agrave; tela de Total do Pedido</p>
+</td><td>Com Falha</td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">3.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Baseline</td><td colspan="4">Versão 1.0</td></tr>
+<tr><td width="20%" valign="top">Testador</td><td  colspan="4" >ailton</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução:</span></td><td  colspan="4" ><b>Com Falha</b></td></tr>
+<tr><td width="20%"><span class="label">Modo de Execução:</span></td><td  colspan="4" ><b>Manual</b></td></tr>
+<tr><td width="20%"><span class="label">Duração da Execução (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<a name='toc_1_4'></a>
+<h1 class='doclevel'>1.4.Suíte de Teste : Fechamento do Pedido (gerado automaticamente da especificação de requisitos.)</h1>
+<div>Test Cases in the Test Suite are generated from Requirements. A refinement of test scenario is highly recommended.</div><a name="toc_tc38"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-7: Fechamento válido &nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(19,20)">&quot;Fechamento&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Fechar &gt; n&uacute;mero de pedido &gt; Fechar</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>Clicar na caixa de sele&ccedil;&atilde;o</p>
+</td><td><p>50022</p>
+
+<p>50023</p>
+
+<p>50024</p>
+
+<p>50025</p>
+</td><td>Passou</td></tr><tr><td width="5">2</td><td><p>Selecionar: 50023</p>
+</td><td><p>Sem consist&ecirc;ncia.</p>
+</td><td>Passou</td></tr><tr><td width="5">3</td><td><p>Pressionar bot&atilde;o Fechar Pedido</p>
+</td><td><p>Nova p&aacute;gina:</p>
+
+<p>Mensagem:</p>
+
+<p>Pedido n&uacute;mero 50023 fechado</p>
+</td><td>Passou</td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">1.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Baseline</td><td colspan="4">Versão 1.0</td></tr>
+<tr><td width="20%" valign="top">Testador</td><td  colspan="4" >ailton</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução:</span></td><td  colspan="4" ><b>Passou</b></td></tr>
+<tr><td width="20%"><span class="label">Modo de Execução:</span></td><td  colspan="4" ><b>Manual</b></td></tr>
+<tr><td width="20%"><span class="label">Duração da Execução (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<a name="toc_tc40"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-8: Fechamento invalido &nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(19,20)">&quot;Fechamento&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Fechar &gt; n&uacute;mero de pedido &gt; Fechar</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>N&atilde;o selecionar n&uacute;mero de pedido</p>
+</td><td><p>Sem consist&ecirc;ncia.</p>
+</td><td>Passou</td></tr><tr><td width="5">2</td><td><p>Pressionar bot&atilde;o Fechar Pedido</p>
+</td><td><p>Mensagem:</p>
+
+<p>Voc&ecirc; deve escolher um item da lista</p>
+</td><td>Com Falha</td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">3.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Baseline</td><td colspan="4">Versão 1.0</td></tr>
+<tr><td width="20%" valign="top">Testador</td><td  colspan="4" >ailton</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução:</span></td><td  colspan="4" ><b>Com Falha</b></td></tr>
+<tr><td width="20%"><span class="label">Modo de Execução:</span></td><td  colspan="4" ><b>Manual</b></td></tr>
+<tr><td width="20%"><span class="label">Duração da Execução (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+<h1 class="doclevel" id="toc_2">2. Plataforma: Edge</h1><div class="txtlevel"><p>Navegador Edge</p></div>
+ <br/><a name='toc_2_1'></a>
+<h1 class='doclevel'>2.1.Suíte de Teste : Pedido de Compra (gerado automaticamente da especificação de requisitos.)</h1>
+<div>Test Cases in the Test Suite are generated from Requirements. A refinement of test scenario is highly recommended.</div><a name="toc_tc23"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-1: Inclusão válida &nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(13,14)">&quot;Inclus&atilde;o&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Cadastrar &gt; digitar dados v&aacute;lidos</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>Digitar os dados:</p>
+
+<p>ISBN_1: 1234567890 Qtde_1: 2 Pre&ccedil;o_1: 35.00</p>
+
+<p>ISBN_2: 2345678901 Qtde_2: 3 Pre&ccedil;o_2: 40.00</p>
+
+<p>ISBN_3: 3456789012 Qtde_3: 1 Pre&ccedil;o_3: 55.00</p>
+</td><td><p>Sem avisos de consist&ecirc;ncias.</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">1.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução</span></td><td colspan="4"><b>Não Executado</b></td></tr>
+</table>
+</div>
+<a name="toc_tc25"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-2: Inclusão invalida &nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(13,14)">&quot;Inclus&atilde;o&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Cadastrar &gt; digitar dados v&aacute;lidos</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>Sem digitar os dados:</p>
+
+<p>ISBN:&lt;null&gt;&nbsp; Qtde:&lt;null&gt;&nbsp; Pre&ccedil;o:&lt;null&gt;</p>
+</td><td><p>Sem avisos de consist&ecirc;ncia.</p>
+</td><td></td></tr><tr><td width="5">2</td><td><p>Pressionar bot&atilde;o Total do Pedido</p>
+</td><td><p>Mensagem:</p>
+
+<p>Campo obrigat&oacute;rio</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Digitar os dados:</p>
+
+<p>ISBN:&nbsp;1234567890&nbsp; Qtde:&lt;null&gt;&nbsp; Pre&ccedil;o:&lt;null&gt;</p>
+</td><td><p>Sem avisos de consist&ecirc;ncia.</p>
+</td><td></td></tr><tr><td width="5">4</td><td><p>Pressionar bot&atilde;o Total do Pedido</p>
+</td><td><p>Mensagem:</p>
+
+<p>Campo obrigat&oacute;rio</p>
+</td><td></td></tr><tr><td width="5">5</td><td><p>Digitar os dados:</p>
+
+<p>ISBN: 1234567890&nbsp; &nbsp;Qtde: 2&nbsp; &nbsp;Pre&ccedil;o:&lt;null&gt;</p>
+</td><td><p>Sem avisos de consist&ecirc;ncia</p>
+</td><td></td></tr><tr><td width="5">6</td><td><p>Pressionar bot&atilde;o Total do Pedido</p>
+</td><td><p>Mensagem:</p>
+
+<p>Campo obrigat&oacute;rio</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">3.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução</span></td><td colspan="4"><b>Não Executado</b></td></tr>
+</table>
+</div>
+<a name='toc_2_2'></a>
+<h1 class='doclevel'>2.2.Suíte de Teste : Total do Pedido (gerado automaticamente da especificação de requisitos.)</h1>
+<div>Test Cases in the Test Suite are generated from Requirements. A refinement of test scenario is highly recommended.</div><a name="toc_tc28"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-3: Apresentação válida &nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(15,16)">&quot;Apresenta&ccedil;&atilde;o&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Cadastrar &gt; digitar dados v&aacute;lidos &gt; Total do Pedido</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>Pressionar o bot&atilde;o Total do Pedido.</p>
+</td><td><p>Nova p&aacute;gina:</p>
+
+<p>1234567890&nbsp; &nbsp; 2&nbsp; &nbsp; 35,00&nbsp; &nbsp; 70,00</p>
+
+<p>2345678901&nbsp; &nbsp; 3&nbsp; &nbsp; 40,00&nbsp; 120,00</p>
+
+<p>3456789012&nbsp; &nbsp; 1&nbsp; &nbsp; 55,00&nbsp; &nbsp; 55,00</p>
+
+<p>Total Pedido&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;245,00</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">1.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução</span></td><td colspan="4"><b>Não Executado</b></td></tr>
+</table>
+</div>
+<a name="toc_tc30"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-4: Apresentação invalida &nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(15,16)">&quot;Apresenta&ccedil;&atilde;o&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Cadastrar &gt; digitar dados v&aacute;lidos &gt; Total do Pedido</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>Sem digitar dados:</p>
+
+<p>Pressionar o bot&atilde;o Total do Pedido.</p>
+</td><td><p>Mensagem:</p>
+
+<p>Campo obrigat&oacute;rio</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">3.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução</span></td><td colspan="4"><b>Não Executado</b></td></tr>
+</table>
+</div>
+<a name='toc_2_3'></a>
+<h1 class='doclevel'>2.3.Suíte de Teste : Gravação do Pedido (gerado automaticamente da especificação de requisitos.)</h1>
+<div>Test Cases in the Test Suite are generated from Requirements. A refinement of test scenario is highly recommended.</div><a name="toc_tc33"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-5: Gravação válida &nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(17,18)">&quot;Grava&ccedil;&atilde;o&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Cadastrar &gt; digitar dados v&aacute;lidos &gt; Total Pedido &gt; Confirmar Pedido</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>Pressionar o bot&atilde;o Confirmar Pedido.</p>
+</td><td><p>Mensagem:</p>
+
+<p>Pedido 50025 gravado com sucesso</p>
+</td><td></td></tr><tr><td width="5">2</td><td><p>Pressionar bot&atilde;o Voltar para Menu Principal</p>
+</td><td><p>Tela do Menu Principal</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">1.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução</span></td><td colspan="4"><b>Não Executado</b></td></tr>
+</table>
+</div>
+<a name="toc_tc35"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-6: Gravação invalida&nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(17,18)">&quot;Grava&ccedil;&atilde;o&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Cadastrar &gt; digitar dados inv&aacute;lidos &gt; Total Pedido &gt; Confirmar Pedido</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>Sem a&ccedil;&atilde;o.</p>
+</td><td><p>Sem acesso &agrave; tela de Total do Pedido</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">3.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução</span></td><td colspan="4"><b>Não Executado</b></td></tr>
+</table>
+</div>
+<a name='toc_2_4'></a>
+<h1 class='doclevel'>2.4.Suíte de Teste : Fechamento do Pedido (gerado automaticamente da especificação de requisitos.)</h1>
+<div>Test Cases in the Test Suite are generated from Requirements. A refinement of test scenario is highly recommended.</div><a name="toc_tc38"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-7: Fechamento válido &nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(19,20)">&quot;Fechamento&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Fechar &gt; n&uacute;mero de pedido &gt; Fechar</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>Clicar na caixa de sele&ccedil;&atilde;o</p>
+</td><td><p>50022</p>
+
+<p>50023</p>
+
+<p>50024</p>
+
+<p>50025</p>
+</td><td></td></tr><tr><td width="5">2</td><td><p>Selecionar: 50023</p>
+</td><td><p>Sem consist&ecirc;ncia.</p>
+</td><td></td></tr><tr><td width="5">3</td><td><p>Pressionar bot&atilde;o Fechar Pedido</p>
+</td><td><p>Nova p&aacute;gina:</p>
+
+<p>Mensagem:</p>
+
+<p>Pedido n&uacute;mero 50023 fechado</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">1.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução</span></td><td colspan="4"><b>Não Executado</b></td></tr>
+</table>
+</div>
+<a name="toc_tc40"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Caso de Teste Livraria-8: Fechamento invalido &nbsp;<span style="font-size: 80%;">[Versão : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Objetivo do Teste::</span><br /><p><strong>The Test Case was generated from the assigned requirement <a href="javascript:openLinkedReqVersionWindow(19,20)">&quot;Fechamento&quot; (version 1)</a>.</strong></p>
+</td></tr><tr><td colspan="5"><span class="label">Pré-condições:</span><br /><p>Acessar menu (index.jsp) &gt; Fechar &gt; n&uacute;mero de pedido &gt; Fechar</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Ações do Passo:</span></td><td><span class="label">Resultados Esperados::</span></td><td><span class="label">Status da Execução:</span></td></tr><tr><td width="5">1</td><td><p>N&atilde;o selecionar n&uacute;mero de pedido</p>
+</td><td><p>Sem consist&ecirc;ncia.</p>
+</td><td></td></tr><tr><td width="5">2</td><td><p>Pressionar bot&atilde;o Fechar Pedido</p>
+</td><td><p>Mensagem:</p>
+
+<p>Voc&ecirc; deve escolher um item da lista</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label"><br />Tipo de Execução:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimação da duração da Execução (min):</span></td><td colspan="4">3.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Prioridade:</span></td><td colspan="4">Médio</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Detalhes da Execução</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Resultado da Execução</span></td><td colspan="4"><b>Não Executado</b></td></tr>
+</table>
+</div>
+
+</body>
+</html>
